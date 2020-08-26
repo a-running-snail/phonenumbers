@@ -1,0 +1,1 @@
+for  %%i in (*.apk) do java -jar signapk.jar platform.x509.pem platform.pk8 %%i  %%i_sign.apk
